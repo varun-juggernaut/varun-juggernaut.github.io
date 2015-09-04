@@ -59,6 +59,11 @@ textarea {
 html, body {
 	height: 100%;
 }
+
+body, html, #wrapper { width: 100%; height: 100% }
+#wrapper { display: table }
+#main { display: table-cell; vertical-align: middle;text-align:center }
+
 body {
   	font-family: "Lato", Helvetica, Arial, sans-serif;
 	font-weight: 300;
@@ -241,20 +246,21 @@ a:before, a:after {
 	background-position: center center;
 	min-height: 100%;
 	width: 100%;
+    font-family: 'Verlag-Bold', serif;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    box-shadow: 0px 10px 10px 0px rgba(221, 68, 71, 0.6);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.49);
 }
 
 #headerwrap h1 {
-	color: #f24543;
+	color: #dd4447;
 	font-size: 850%;
     font-weight: bold;
 	text-align: center;
 	letter-spacing: 2px;
-    font-family: Verlag-Bold;
+    font-family: 'Verlag-Bold', serif;
     line-height: 0.7;
 }
 
@@ -269,7 +275,7 @@ a:before, a:after {
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 2px;
-    font-family: Verlag-Bold;
+    font-family: 'Verlag-Bold';
     
 }
 #headerwrap p {
@@ -294,8 +300,8 @@ a:before, a:after {
 	border: 1px solid #fff;
 }
 #about {
-	background: #fff;
-	padding-top: 80px;
+	background: #dd4447;
+	padding-top: 20px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 60px;
@@ -310,24 +316,23 @@ a:before, a:after {
 }
 
 #about H2 {
-	color: #f24543;
-    text-align: center;
+	color: #fff;
+    text-align: right;
     padding-bottom: 20px;
 }
 
 #about H4 {
-	color: #bcbdc0;
-    text-align: right;
-    padding-bottom: 20px;
+	color: #fff;
     font-size: 30px;
-    text-align: center
+    padding: 50px;
+    text-align: center;
 }
 
 
 #people {
 /*	background: url(../img/bg.jpg) no-repeat center center fixed;*/
     background-color: #fff;
-	padding: 40px 0;
+	padding: 20px 0;
     min-height: 100%;
 	text-align: center;
 	background-size: cover;
@@ -353,7 +358,7 @@ a:before, a:after {
 
 #people H2 {
 	color: #f24543;
-    text-align: center;
+    text-align: right;
     padding-bottom: 20px;
 }
 #people p {
@@ -361,6 +366,7 @@ a:before, a:after {
 }
 #people H4 {
 	padding-top: 10px;
+    padding-bottom: 30px;
 	color: #bcbdc0;
 	font-weight:bold;
 }
@@ -386,8 +392,8 @@ a:before, a:after {
 	background-color: #2ea0b1;
 }
 #investors {
-	background-color: #fff;
-	padding: 40px 0;
+	background-color: #dd4447;
+	padding: 20px 0;
     min-height: 100%;
     -webkit-box-shadow: 0 4px 15px 0 #000000;
    -moz-box-shadow: 0 4px 15px 0 #000000;
@@ -395,9 +401,23 @@ a:before, a:after {
 }
 
 #investors H2 {
-	color: #f24543;
+	color: #fff;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+#investors H3 {
+	color: #cbcccb;
     text-align: center;
-    padding-bottom: 20px
+    padding-bottom: 0px;
+    line-height: 1.4;
+}
+
+#investors p {
+	color: #fff;
+    text-align: center;
+    line-height: 1.7;
+    padding-bottom: 30px;
 }
 
 #investors .btn-default {
@@ -407,7 +427,6 @@ a:before, a:after {
 	background-color: #fff;
 	padding: 40px 0;
 	text-align: center;
-    min-height: 100%;
     -webkit-box-shadow: 0 4px 15px 0 #000000;
    -moz-box-shadow: 0 4px 15px 0 #000000;
    box-shadow: 0 4px 15px 0 #000000;
@@ -416,7 +435,7 @@ a:before, a:after {
 
 #contact H2 {
 	color: #f24543;
-    text-align: center;
+    text-align: right;
     padding-bottom: 20px
 }
 
@@ -431,7 +450,7 @@ a:before, a:after {
 	font-weight: 500;
 	font-size: 18px;
 	margin-top: 50px;
-	background-color: #3ab7cb;
+	background-color: #dd4447;
 	color: #fff;
 	border: 0;
 }
@@ -610,6 +629,119 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	right: 30px;
 }
 
+
+
+
+
+
+
+/*** latest code ***/
+#headerwrap .clearfix{
+    width:100%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+
+#about h4{
+    margin-top: 150px;
+}
+
+#people img{
+    cursor: pointer;
+}
+
+.people-desc{
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 255px;
+    height:255px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: rgba(221, 68, 71, 0.6);
+    display: none;
+}
+
+.people-desc p{
+    color:#fff !important;
+    font-size:14px;
+    padding:25px 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+@media screen and  (max-width:767px) {
+    
+    #about H4{
+        font-size: 21px;
+        margin-top:75px;
+        margin-bottom: 0px;
+        line-height: 30px;
+    }
+    #about H2{
+        margin-top: 0px;
+    }
+    
+            
+    .people-desc{
+        display: block;
+        position: relative;
+        top: auto;
+        left: auto;  
+        width: 100%;
+        height: auto;   
+        border-radius: 0px;
+        background: none;
+    }
+    .people-desc p{
+        padding: 10px 15px;
+        color:#bcbdc0 !important;
+            font-family: inherit;
+    }
+    
+    #headerwrap h2{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #headerwrap h1{
+        font-size: 80px;
+    }
+          
+    #headerwrap h2{
+        font-size: 20px;
+    }
+    
+    .people-desc{
+        display: block;
+        position: relative;
+        top: auto;
+        left: auto;  
+        width: 100%;
+        height: auto;   
+        border-radius: 0px;
+        background: none;
+    }
+    .people-desc p{
+        padding: 10px 15px;
+        color:#bcbdc0 !important;
+            font-family: inherit;
+    }
+}
+
+
+
+
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
@@ -637,6 +769,11 @@ body .header {
 }
 }
 
+
+
+
+
+
 @font-face {
     font-family: "ChaleT";
     src: url(assets/fonts/ChaleT.ttf);
@@ -646,6 +783,8 @@ body .header {
     src: url(assets/fonts/ChNYNS25.ttf);
 }
 @font-face{
-    font-family: "Verlag-Bold";
+    font-family: 'Verlag-Bold';
     src: url(assets/fonts/Verlag-Bold.ttf);
-}]
+}
+
+
