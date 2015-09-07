@@ -246,7 +246,7 @@ a:before, a:after {
 	background-position: center center;
 	min-height: 100%;
 	width: 100%;
-    font-family: 'Verlag-Bold', serif;
+    font-family: inherit;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -260,7 +260,7 @@ a:before, a:after {
     font-weight: bold;
 	text-align: center;
 	letter-spacing: 2px;
-    font-family: 'Verlag-Bold', serif;
+    font-family: inherit;
     line-height: 0.7;
 }
 
@@ -275,7 +275,7 @@ a:before, a:after {
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 2px;
-    font-family: 'Verlag-Bold';
+    font-family: inherit;
     
 }
 #headerwrap p {
@@ -284,6 +284,7 @@ a:before, a:after {
 	font-weight: 300;
 	text-align: center;
 	letter-spacing: 1px;
+	font-family: inherit;
 }
 #headerwrap .btn {
 	font-weight: 500;
@@ -319,6 +320,7 @@ a:before, a:after {
 	color: #fff;
     text-align: right;
     padding-bottom: 20px;
+    font-family: inherit;
 }
 
 #about H4 {
@@ -326,6 +328,7 @@ a:before, a:after {
     font-size: 30px;
     padding: 50px;
     text-align: center;
+    font-family: inherit;
 }
 
 
@@ -360,15 +363,18 @@ a:before, a:after {
 	color: #f24543;
     text-align: right;
     padding-bottom: 20px;
+    font-family: inherit;
 }
 #people p {
 	color: #6c6d70;
+	font-family: inherit;
 }
 #people H4 {
 	padding-top: 10px;
     padding-bottom: 30px;
 	color: #bcbdc0;
 	font-weight:bold;
+	font-family: inherit;
 }
 #people p.large {
 	margin-top: 60px;
@@ -404,6 +410,7 @@ a:before, a:after {
 	color: #fff;
     text-align: right;
     padding-bottom: 20px;
+    font-family: inherit;
 }
 
 #investors H3 {
@@ -411,6 +418,7 @@ a:before, a:after {
     text-align: center;
     padding-bottom: 0px;
     line-height: 1.4;
+    font-family: inherit;
 }
 
 #investors p {
@@ -418,6 +426,7 @@ a:before, a:after {
     text-align: center;
     line-height: 1.7;
     padding-bottom: 30px;
+    font-family: inherit;
 }
 
 #investors .btn-default {
@@ -437,6 +446,7 @@ a:before, a:after {
 	color: #f24543;
     text-align: right;
     padding-bottom: 20px
+    font-family: inherit;
 }
 
 #contact .form {

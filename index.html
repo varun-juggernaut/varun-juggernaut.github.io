@@ -235,14 +235,14 @@ Katherine Boo and B N Goswamy.</p>
         
         function people(){
             if($(window).width() > 1024){
-                $(document).on("click","#people img",function(){
+                $(document).on("mouseover","#people img",function(){
                     $(this).parent().siblings(".centered").children(".people-desc").fadeOut(400);
                    $(this).siblings(".people-desc").fadeToggle(400); 
                 });
 
-                    $(document).on("click",".people-desc",function(){
-                    $(this).fadeOut(400);
-                    });
+                    // $(document).on("mouseover",".people-desc",function(){
+                    // $(this).fadeOut(400);
+                    // });
             }
         }
         
