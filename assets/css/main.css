@@ -378,14 +378,17 @@ a:before, a:after {
 
 #about H2 {
 	color: #fff;
-	text-align: right;
+	text-align: center;
 	padding-bottom: 20px;
 	font-family: inherit;
+	font-weight: bold;
+	font-size: 33px;
 }
 
 #about H4 {
 	color: #fff;
 	font-size: 30px;
+	font-weight:300;
 	padding: 25px;
 	text-align: center;
 	font-family: inherit;
@@ -421,9 +424,11 @@ a:before, a:after {
 
 #people H2 {
 	color: #f24543;
-	text-align: right;
+	text-align: center;
 	padding-bottom: 20px;
 	font-family: inherit;
+	font-weight: bold;
+	font-size: 33px;
 }
 #people p {
 	color: #6c6d70;
@@ -435,7 +440,7 @@ a:before, a:after {
 #people H4 {
 	padding-top: 10px;
 	margin-bottom: 10px;
-	color: #bcbdc0;
+	color: #8e8e8e;
 	font-weight: bold;
 	font-family: inherit;
 	line-height: 0.1;
@@ -443,7 +448,7 @@ a:before, a:after {
 #people h5 {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	color: #bcbdc0;
+	color: #8e8e8e;
 	font-family: inherit;
 }
 #people p.large {
@@ -478,13 +483,15 @@ a:before, a:after {
 
 #investors H2 {
 	color: #fff;
-	text-align: right;
+	text-align: center;
 	padding-bottom: 20px;
 	font-family: inherit;
+	font-weight: bold;
+	font-size: 33px;
 }
 
 #investors H3 {
-	color: #cbcccb;
+	color: #ffffff;
 	text-align: center;
 	padding-bottom: 0px;
 	line-height: 1.4;
@@ -497,6 +504,7 @@ a:before, a:after {
 	line-height: 1.7;
 	padding-bottom: 30px;
 	font-family: inherit;
+	font-weight: 400;
 }
 
 #investors .btn-default {
@@ -532,8 +540,10 @@ a:before, a:after {
 
 #advisors H2 {
 	color: #f24543;
-	text-align: right;
+	text-align: center;
 	padding-bottom: 20px font-family : inherit;
+	font-weight: bold;
+	font-size: 33px;
 }
 
 #advisors H3 {
@@ -551,7 +561,7 @@ a:before, a:after {
 }
 
 #advisors p {
-	color: #cbcccb;
+	color: #8e8e8e;
 	text-align: center;
 	line-height: 1.7;
 	padding-bottom: 30px;
@@ -574,8 +584,20 @@ a:before, a:after {
 
 #contact H2 {
 	color: #fff;
-	text-align: right;
+	text-align: center;
 	padding-bottom: 20px font-family : inherit;
+	font-weight: bold;
+	font-size: 33px;
+	margin-bottom: 40px;
+}
+
+#contact p {
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.7;
+	padding-bottom: 30px;
+	font-family: inherit;
+	font-weight: 400;
 }
 
 #contact .form {
@@ -593,6 +615,14 @@ a:before, a:after {
 	color: #dd4447;
 	border: 0;
 }
+
+#contacts img{
+	
+	width: 20px;
+	height: 20px;
+	
+}
+
 #contact .btn:hover, #contact .btn:focus {
 	background-color: #e3e3e3;
 	outline: 0px;
@@ -833,7 +863,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	}
 	.people-desc p {
 		padding: 10px 15px;
-		color: #bcbdc0 !important;
+		color: #8e8e8e !important;
 		font-family: inherit;
 	}
 
@@ -864,7 +894,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	}
 	.people-desc p {
 		padding: 10px 15px;
-		color: #bcbdc0 !important;
+		color: #8e8e8e !important;
 		font-family: inherit;
 	}
 
