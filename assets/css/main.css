@@ -1,3 +1,11 @@
+/*
+ main.css
+ <project>
+
+ Created by Varun Naik on 2015-09-10.
+ Copyright 2015 Varun Naik. All rights reserved.
+ */
+
 html, button, input, select, textarea {
 	color: #222;
 }
@@ -262,7 +270,6 @@ a:before, a:after {
  footer Sections
  ========================================================================== */
 
-
 .footer {
 	position: fixed;
 	bottom: 0px;
@@ -339,6 +346,12 @@ a:before, a:after {
 	letter-spacing: 2px;
 	font-family: inherit;
 }
+
+#headerwrap h3 {
+	color: #b3b3b2;
+	font-family: inherit;
+}
+
 #headerwrap p {
 	color: #fff;
 	font-size: 22px;
@@ -388,7 +401,7 @@ a:before, a:after {
 #about H4 {
 	color: #fff;
 	font-size: 30px;
-	font-weight:300;
+	font-weight: 300;
 	padding: 25px;
 	text-align: center;
 	font-family: inherit;
@@ -475,10 +488,26 @@ a:before, a:after {
 #investors {
 	background-color: #dd4447;
 	padding: 20px 0;
+	text-align: center;
+	vertical-align: bottom;
 	min-height: 100%;
+	height: 100%;
 	-webkit-box-shadow: 0 4px 15px 0 #000000;
 	-moz-box-shadow: 0 4px 15px 0 #000000;
 	box-shadow: 0 4px 15px 0 #000000;
+}
+
+#login_form {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #bdd2ff;
+	border: 1px solid white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	text-align: center;
 }
 
 #investors H2 {
@@ -603,10 +632,12 @@ a:before, a:after {
 #contact .form {
 	padding: 30px 0;
 }
+
 #contact .fa {
 	color: #3ab7cb;
 	margin-bottom: 10px;
 }
+
 #contact .btn {
 	font-weight: 500;
 	font-size: 18px;
@@ -616,11 +647,10 @@ a:before, a:after {
 	border: 0;
 }
 
-#contacts img{
-	
+#contacts img {
+
 	width: 20px;
 	height: 20px;
-	
 }
 
 #contact .btn:hover, #contact .btn:focus {
