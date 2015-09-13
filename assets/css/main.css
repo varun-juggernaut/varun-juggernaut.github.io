@@ -110,9 +110,16 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 }
-.col-md-4 {
-	padding-bottom: 30px;
-}
+
+.mrgn_top_15p{
+	margin-top:15%;
+	}
+	
+.mrgn_top_5p{
+	margin-top:5%;
+	}
+
+
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -350,6 +357,7 @@ a:before, a:after {
 #headerwrap h3 {
 	color: #b3b3b2;
 	font-family: inherit;
+	margin:25px 0 15px 0;
 }
 
 #headerwrap p {
@@ -488,13 +496,13 @@ a:before, a:after {
 #investors {
 	background-color: #dd4447;
 	padding: 20px 0;
-	min-height: 100%;
 	text-align: center;
-	background-size: cover;
+	vertical-align: bottom;
+	min-height: 100%;
+	height: 100%;
 	-webkit-box-shadow: 0 4px 15px 0 #000000;
 	-moz-box-shadow: 0 4px 15px 0 #000000;
 	box-shadow: 0 4px 15px 0 #000000;
-	
 }
 
 #login_form {
@@ -900,10 +908,6 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	#headerwrap h2 {
 		font-size: 20px;
 	}
-	
-	#headerwrap h3 {
-		font-size: 20px;
-	}
 
 }
 
@@ -913,10 +917,6 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	}
 
 	#headerwrap h2 {
-		font-size: 20px;
-	}
-	
-	#headerwrap h3 {
 		font-size: 20px;
 	}
 

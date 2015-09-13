@@ -48,16 +48,16 @@ Copyright 2015 Varun Naik. All rights reserved.
 				<!--      <img id="logo1" src="assets/img/Logo.png" alt="Juggernaut" height="100"/>-->
 				<h3>Join the Juggernaut journey. Get updates and sign up to be a beta user. </h3>
 				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 centered">
+					<div class="col-lg-8 col-lg-offset-4">
 						<form method="post" class="form" role="form" >
 							<div class="row" >
-								<div class="col-xs-6 col-md-6 form-group" >
+								<div class="col-lg-6 col-xs-6 col-md-6 form-group" >
 									<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
 								</div>
 							</div>
 
 							<div class="row">
-								<div class="col-xs-12 col-md-12" >
+								<div class="col-lg-6 col-xs-6 col-md-6" >
 									<button class="btn btn btn-lg" type="submit">
 										Sign up for updates
 									</button>
@@ -67,37 +67,6 @@ Copyright 2015 Varun Naik. All rights reserved.
 						<!-- form -->
 					</div>
 				</div>
-
-				<!-- dfhbhjsadfghjasdfghjkgsdfjagsdkfgkajsdfgjkhasdgfhjkgasdjhfgjhsadjhf -->
-
-				<!-- Begin MailChimp Signup Form -->
-				<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup {
-						background: #fff;
-						clear: left;
-						font: 14px Helvetica, Arial, sans-serif;
-					}
-					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-					 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-				</style>
-				<div id="mc_embed_signup">
-					<form action="//juggernaut.us11.list-manage.com/subscribe/post?u=db62d751d04768d80b726703d&amp;id=d4e973de7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-							<label for="mce-EMAIL">Subscribe to our mailing list</label>
-							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							<div style="position: absolute; left: -5000px;">
-								<input type="text" name="b_db62d751d04768d80b726703d_d4e973de7d" tabindex="-1" value="">
-							</div>
-							<div class="clear">
-								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-							</div>
-						</div>
-					</form>
-				</div>
-
-				<!--End mc_embed_signup-->
 
 			</header>
 
@@ -253,7 +222,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 				<div class="row">
 					<h2 class="centered">Investors</h2>
 
-					<div class="col-lg-14 centered">
+					<div class="col-lg-14 centered mrgn_top_15p">
 						<h3>William Bissell</h3>
 						<p>
 							MD of Fabindia, one of India’
@@ -264,7 +233,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</p>
 					</div>
 
-					<div class="col-lg-14 centered">
+					<div class="col-lg-14 centered mrgn_top_15p">
 						<h3>Nandan Nilekani</h3>
 						<p>
 							Ex-CEO and cofounder of
@@ -276,7 +245,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</p>
 					</div>
 
-					<div class="col-lg-14 centered">
+					<div class="col-lg-14 centered mrgn_top_15p">
 						<h3>Neeraj Aggarwal</h3>
 						<p>
 							CEO of Boston Consulting Group
@@ -300,7 +269,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 					<h2 class="centered">Advisors</h2>
 				</div>
 
-				<div class="col-lg-14 centered">
+				<div class="col-lg-14 centered mrgn_top_5p">
 					<h3>Aveek Sarkar</h3>
 					<h4>Media</h4>
 					<p>
@@ -313,7 +282,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 					</p>
 				</div>
 
-				<div class="col-lg-14 centered">
+				<div class="col-lg-14 centered mrgn_top_5p">
 					<h3>D Sundaram</h3>
 					<h4>Financial</h4>
 					<p>
@@ -326,7 +295,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 					</p>
 				</div>
 
-				<div class="col-lg-14 centered">
+				<div class="col-lg-14 centered mrgn_top_5p">
 					<h3>Nandan Nilekani</h3>
 					<h4>Digital</h4>
 					<p>
@@ -431,7 +400,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 				if ($(window).width() > 1024) {
 					$(document).on("mouseover", "#people img", function() {
 						$(this).parent().siblings(".centered").children(".people-desc").fadeOut(400);
-						$(this).siblings(".people-desc").fadeToggle(400);
+						$(this).siblings(".people-desc").fadeIn(400);
 					});
 					$(document).on("mouseout", "#people img", function() {
 						$(this).siblings(".people-desc").fadeOut(400);
