@@ -111,14 +111,13 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
-.mrgn_top_15p{
-	margin-top:15%;
-	}
-	
-.mrgn_top_5p{
-	margin-top:5%;
-	}
+.mrgn_top_15p {
+	margin-top: 15%;
+}
 
+.mrgn_top_5p {
+	margin-top: 5%;
+}
 
 .row {
 	margin-right: 0px;
@@ -357,7 +356,14 @@ a:before, a:after {
 #headerwrap h3 {
 	color: #b3b3b2;
 	font-family: inherit;
-	margin:25px 0 15px 0;
+	margin: 25px 0 15px 0;
+}
+
+#headerwrap h4 {
+	color: #b3b3b2;
+	font-family: inherit;
+	margin: 25px 0 15px 0;
+	letter-spacing: 2px;
 }
 
 #headerwrap p {
@@ -495,11 +501,19 @@ a:before, a:after {
 }
 #investors {
 	background-color: #dd4447;
+	/*padding: 20px 0;
+	 text-align: center;
+	 vertical-align: bottom;
+	 min-height: 100%;
+	 height: 100%;
+	 -webkit-box-shadow: 0 4px 15px 0 #000000;
+	 -moz-box-shadow: 0 4px 15px 0 #000000;
+	 box-shadow: 0 4px 15px 0 #000000;*/
+
 	padding: 20px 0;
-	text-align: center;
-	vertical-align: bottom;
 	min-height: 100%;
-	height: 100%;
+	text-align: center;
+	background-size: cover;
 	-webkit-box-shadow: 0 4px 15px 0 #000000;
 	-moz-box-shadow: 0 4px 15px 0 #000000;
 	box-shadow: 0 4px 15px 0 #000000;
@@ -907,6 +921,14 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 	#headerwrap h2 {
 		font-size: 20px;
+		letter-spacing: 2px;
+	}
+
+	#headerwrap h4 {
+		color: #b3b3b2;
+		font-family: inherit;
+		margin: 25px 0 15px 0;
+		font-size: 15px;
 	}
 
 }
@@ -918,6 +940,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 	#headerwrap h2 {
 		font-size: 20px;
+	}
+	
+	#headerwrap h4 {
+		font-size: 15px;
+		letter-spacing: 2px;
 	}
 
 	.people-desc {
