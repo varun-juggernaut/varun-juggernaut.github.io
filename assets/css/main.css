@@ -935,6 +935,9 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		margin: 25px 0 15px 0;
 		font-size: 12px;
 		font-weight: 50;
+		letter-spacing: 1px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	#headerwrap h4 {
