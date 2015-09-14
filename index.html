@@ -43,29 +43,22 @@ Copyright 2015 Varun Naik. All rights reserved.
 		<div id="headerwrap" name="home" >
 			<header class="clearfix">
 
-				<h1>JUGGERNAUT</h1>
+				<h1 style="padding-top:160px;">JUGGERNAUT</h1>
 				<h2>Great publishing that breaks a few rules</h2>
-				<!--      <img id="logo1" src="assets/img/Logo.png" alt="Juggernaut" height="100"/>-->
-				<h4>Join the Juggernaut journey. Get updates and sign up to be a beta user. </h4>
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-4">
+                
+                <h3 style="padding-top:60px;">Join the Juggernaut journey. Get updates and sign up to be a beta user. </h3>
+                    <div class="col-lg-8 col-lg-offset-4">
 						<form method="post" class="form" role="form" >
 							<div class="row" >
 								<div class="col-lg-6 col-xs-6 col-md-6 form-group" >
 									<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-lg-6 col-xs-6 col-md-6" >
-									<button class="btn btn btn-lg" type="submit">
-										Sign up for updates
-									</button>
+									<button class="btn btn btn-lg" type="submit"> Sign up for updates </button>
 								</div>
 							</div>
 						</form>
 					</div>
-				</div>
+
+
 
 			</header>
 
@@ -94,8 +87,8 @@ Copyright 2015 Varun Naik. All rights reserved.
 				<div class="row centered">
 					<h2 class="centered">People</h2>
 
-					<div class="col-lg-3 centered">
-						<img class="img img-thumbnail" src="assets/img/team/Chiki.jpg" height="100%" width="100%" alt="">
+					<div class="col-lg-3 centered gallery-item">
+						<img class="img img-thumbnail img-title" src="assets/img/team/Chiki.jpg" height="100%" width="100%" alt="">
 						<h4>Chiki Sarkar</h4>
 						<h5>Publisher</h5>
 						<div class="people-desc">
@@ -108,7 +101,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</div>
 					</div>
 
-					<div class="col-lg-3 centered">
+					<div class="col-lg-3 centered gallery-item">
 						<img class="img img-thumbnail" src="assets/img/team/Durga.jpg" height="100%" width="100%" alt="">
 						<h4>Durga Raghunath</h4>
 						<h5>CEO</h5>
@@ -122,7 +115,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</div>
 					</div>
 
-					<div class="col-lg-3 centered">
+					<div class="col-lg-3 centered gallery-item">
 						<img class="img img-thumbnail" src="assets/img/team/Nandini.jpg" height="100%" width="100%" alt="">
 						<h4>Nandini Mehta</h4>
 						<h5>Executive Editor</h5>
@@ -135,7 +128,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</div>
 					</div>
 
-					<div class="col-lg-3 centered">
+					<div class="col-lg-3 centered gallery-item">
 						<img class="img img-thumbnail" src="assets/img/team/Sivapriya.jpg" height="100%" width="100%" alt="">
 						<h4>R. Sivapriya</h4>
 						<h5>Executive Editor</h5>
@@ -153,7 +146,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 					</div>
 					<div class="row centered">
 					-->
-					<div class="col-lg-3 centered">
+					<div class="col-lg-3 centered gallery-item">
 						<img class="img img-thumbnail" src="assets/img/team/Jaishree.jpg" height="100%" width="100%" alt="">
 						<h4>Jaishree Ram Mohan</h4>
 						<h5>Managing Editor</h5>
@@ -165,7 +158,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-3 centered">
+					<div class="col-lg-3 centered gallery-item">
 						<img class="img img-thumbnail" src="assets/img/team/Gavin.jpg" height="100%" width="100%" alt="">
 						<h4>Gavin Morris</h4>
 						<h5>Art Director</h5>
@@ -178,8 +171,8 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</div>
 					</div>
 
-					<div class="col-lg-3 centered">
-						<img class="img img-thumbnail" src="assets/img/team/Saurav.jpg" height="100%" width="100%" alt="">
+					<div class="col-lg-3 centered gallery-item">
+						<img class="img img-thumbnail gallery-item" src="assets/img/team/Saurav.jpg" height="100%" width="100%" alt="">
 						<h4>Saurav Roy</h4>
 						<h5>Chief Product Officer</h5>
 						<div class="people-desc">
@@ -189,7 +182,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 						</div>
 					</div>
 
-					<div class="col-lg-3 centered">
+					<div class="col-lg-3 centered gallery-item">
 						<img class="img img-thumbnail" src="assets/img/team/Varun.jpg" height="100%" width="100%" alt="">
 						<h4>Varun Naik</h4>
 						<h5>Software Engineer</h5>
@@ -200,9 +193,7 @@ Copyright 2015 Varun Naik. All rights reserved.
 							</p>
 						</div>
 					</div>
-
 				</div>
-
 			</div>
 			<!-- row -->
 		</div>
@@ -367,6 +358,8 @@ Copyright 2015 Varun Naik. All rights reserved.
 					</div>
 				</div>
 
+
+
 			</div>
 		</div>
 		<!-- container -->
@@ -383,38 +376,23 @@ Copyright 2015 Varun Naik. All rights reserved.
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
 		<script>
-			people();
+			$(document).ready( function() {
 
-			$(window).resize(function() {
-				people();
-			});
+	$('.gallery-item').hover( function() {
+		$(this).find('.people-desc').fadeIn(300);
+	}, function() {
+		$(this).find('.people-desc').fadeOut(100);
+	});
+	
+});
 
-			function people() {
-				if ($(window).width() > 1024) {
-					$(document).on("mouseover", "#people img", function() {
-						$(this).parent().siblings(".centered").children(".people-desc").fadeOut(400);
-						$(this).siblings(".people-desc").fadeIn(400);
-					});
-					$(document).on("mouseout", "#people img", function() {
-						$(this).siblings(".people-desc").fadeOut(400);
-					});
-					$(document).on("click", ".people-desc", function() {
-						$(this).fadeOut(400);
-					});
-
-					// $(document).ready(function() {
-					//
-					// $("#people img").hover(function() {
-					// $(this).find('.img-title').fadeIn(300);
-					// }, function() {
-					// $(this).find('.img-title').fadeOut(100);
-					// });
-					//
-					// });
-				}
-			}
 
 		</script>
+        
+        
+        
+        
+
 
 	</body>
 </html>

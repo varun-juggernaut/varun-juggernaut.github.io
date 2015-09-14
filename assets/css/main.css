@@ -354,13 +354,14 @@ a:before, a:after {
 }
 
 #headerwrap h3 {
-	color: #b3b3b2;
+	color: #8e8e8e;
 	font-family: inherit;
 	margin: 25px 0 15px 0;
+	font-size: 15px;
 }
 
 #headerwrap h4 {
-	color: #b3b3b2;
+	color: #8e8e8e;
 	font-family: inherit;
 	margin: 25px 0 15px 0;
 	letter-spacing: 2px;
@@ -663,7 +664,7 @@ a:before, a:after {
 #contact .btn {
 	font-weight: 500;
 	font-size: 18px;
-	margin-top: 50px;
+	margin-top: 20px;
 	background-color: #fff;
 	color: #dd4447;
 	border: 0;
@@ -868,6 +869,10 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	cursor: pointer;
 }
 
+#contact h3 {
+	color: #fff;
+}
+
 .people-desc {
 	cursor: pointer;
 	position: absolute;
@@ -920,12 +925,20 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	}
 
 	#headerwrap h2 {
-		font-size: 20px;
+		font-size: 13px;
 		letter-spacing: 2px;
 	}
 
+	#headerwrap h3 {
+		color: #8e8e8e;
+		font-family: inherit;
+		margin: 25px 0 15px 0;
+		font-size: 10px;
+		font-weight: 50;
+	}
+
 	#headerwrap h4 {
-		color: #b3b3b2;
+		color: #8e8e8e;
 		font-family: inherit;
 		margin: 25px 0 15px 0;
 		font-size: 15px;
@@ -941,10 +954,18 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	#headerwrap h2 {
 		font-size: 20px;
 	}
-	
+
 	#headerwrap h4 {
 		font-size: 15px;
 		letter-spacing: 2px;
+	}
+	
+	#headerwrap h3 {
+		color: #8e8e8e;
+		font-family: inherit;
+		margin: 25px 0 15px 0;
+		font-size: 14px;
+		font-weight: 50;
 	}
 
 	.people-desc {
