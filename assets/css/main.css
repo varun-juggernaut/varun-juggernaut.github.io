@@ -336,7 +336,7 @@ a:before, a:after {
 	font-size: 850%;
 	text-align: center;
 	letter-spacing: 2px;
-	line-height: 0.7;
+	line-height: 0.8;
 }
 
 #headerwrap img {
@@ -350,14 +350,12 @@ a:before, a:after {
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 2px;
-	font-family: inherit;
 }
 
 #headerwrap h3 {
 	color: #8e8e8e;
-	font-family: inherit;
 	margin: 25px 0 15px 0;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 #headerwrap h4 {
@@ -408,18 +406,15 @@ a:before, a:after {
 	color: #fff;
 	text-align: center;
 	padding-bottom: 20px;
-	font-family: inherit;
-	font-weight: bold;
-	font-size: 33px;
+	font-size: 40px;
 }
 
 #about H4 {
 	color: #fff;
-	font-size: 30px;
+	font-size: 34px;
 	font-weight: 300;
 	padding: 25px;
 	text-align: center;
-	font-family: inherit;
 	line-height: 1.3;
 }
 
@@ -454,30 +449,27 @@ a:before, a:after {
 	color: #f24543;
 	text-align: center;
 	padding-bottom: 20px;
-	font-family: inherit;
-	font-weight: bold;
-	font-size: 33px;
+	font-size: 40px;
 }
 #people p {
 	color: #6c6d70;
-	font-family: inherit;
-	line-height: 1.5;
+	line-height: 1.2;
 	margin-bottom: 40px;
 	font-weight: 400;
+	font-size: 17px;
 }
 #people H4 {
 	padding-top: 10px;
 	margin-bottom: 10px;
 	color: #8e8e8e;
+	line-height: 0.2;
+	font-size: 22px;
 	font-weight: bold;
-	font-family: inherit;
-	line-height: 0.1;
 }
 #people h5 {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	color: #8e8e8e;
-	font-family: inherit;
 }
 #people p.large {
 	margin-top: 60px;
@@ -537,9 +529,7 @@ a:before, a:after {
 	color: #fff;
 	text-align: center;
 	padding-bottom: 20px;
-	font-family: inherit;
-	font-weight: bold;
-	font-size: 33px;
+	font-size: 40px;
 }
 
 #investors H3 {
@@ -547,16 +537,16 @@ a:before, a:after {
 	text-align: center;
 	padding-bottom: 0px;
 	line-height: 1.4;
-	font-family: inherit;
+	font-size: 30px;
 }
 
 #investors p {
 	color: #fff;
 	text-align: center;
-	line-height: 1.7;
+	line-height: 1.3;
 	padding-bottom: 30px;
-	font-family: inherit;
 	font-weight: 400;
+	font-size: 20px;
 }
 
 #investors .btn-default {
@@ -593,32 +583,32 @@ a:before, a:after {
 #advisors H2 {
 	color: #f24543;
 	text-align: center;
-	padding-bottom: 20px font-family : inherit;
-	font-weight: bold;
-	font-size: 33px;
+	padding-bottom: 20px;
+	font-size: 40px;
 }
 
 #advisors H3 {
 	color: #8e8e8e;
 	text-align: center;
 	padding-bottom: 0px;
-	font-family: inherit;
+	font-size: 30px;
+	line-height: 0.3;
 }
 
 #advisors H4 {
 	color: #8e8e8e;
 	text-align: center;
 	padding-bottom: 0px;
-	font-family: inherit;
+	font-size: 20px;
 }
 
 #advisors p {
 	color: #8e8e8e;
 	text-align: center;
-	line-height: 1.7;
+	line-height: 1.3;
 	padding-bottom: 30px;
-	font-family: inherit;
 	font-weight: 400;
+	font-size: 20px;
 }
 
 #advisors .btn-default {
@@ -637,19 +627,18 @@ a:before, a:after {
 #contact H2 {
 	color: #fff;
 	text-align: center;
-	padding-bottom: 20px font-family : inherit;
-	font-weight: bold;
-	font-size: 33px;
+	padding-bottom: 20px;
+	font-size: 40px;
 	margin-bottom: 40px;
 }
 
 #contact p {
 	color: #ffffff;
 	text-align: center;
-	line-height: 1.7;
+	line-height: 1.3;
 	padding-bottom: 30px;
-	font-family: inherit;
 	font-weight: 400;
+	font-size: 20px;
 }
 
 #contact .form {
@@ -906,6 +895,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	}
 	#about H2 {
 		margin-top: 20px;
+		font-size: 35px;
 	}
 
 	.people-desc {
@@ -945,6 +935,35 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		font-family: inherit;
 		margin: 25px 0 15px 0;
 		font-size: 15px;
+	}
+
+	#investors h2 {
+		font-size: 35px;
+	}
+
+	#advisors h2 {
+		font-size: 35px;
+	}
+
+	#people h2 {
+		font-size: 35px;
+	}
+
+	#contact h2 {
+		font-size: 35px;
+	}
+
+	#advisors h3 {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	#advisors h4 {
+		font-size: 16px;
+	}
+
+	#advisors p {
+		font-size: 18px;
 	}
 }
 
@@ -1010,7 +1029,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 @media screen and (max-width: 769px) {
 	#headerwrap h1 {
-		font-size: 40px;
+		font-size: 50px;
 	}
 	#headerwrap p {
 		font-size: 20px;
@@ -1031,15 +1050,19 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 
 @font-face {/*
-	font-family: Brandon-Bold;
-	src: url(assets/fonts/Brandon-Bold.eot) format('embedded-opentype'), url(assets/fonts/Brandon-Bold.woff2) format('woff2'), url(assets/fonts/Brandon-Bold.woff) format('woff'), url(assets/fonts/Brandon-Bold.ttf) format('truetype');
-}*/
+	 font-family: Brandon-Bold;
+	 src: url(assets/fonts/Brandon-Bold.eot) format('embedded-opentype'), url(assets/fonts/Brandon-Bold.woff2) format('woff2'), url(assets/fonts/Brandon-Bold.woff) format('woff'), url(assets/fonts/Brandon-Bold.ttf) format('truetype');
+	 }*/
 
-@font-face {
+	@font-face {
 	font-family: 'BrandonGrotesque-Black';
 	src: url('assets/fonts/2F2BD0_B_0.eot');
 	src: url('assets/fonts/2F2BD0_B_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/2F2BD0_B_0.woff2') format('woff2'), url('assets/fonts/2F2BD0_B_0.woff') format('woff'), url('assets/fonts/2F2BD0_B_0.ttf') format('truetype');
 }
 
-@font-face {font-family: 'BrandonGrotesque-Bold';src: url('assets/fonts/2F2BD0_9_0.eot');src: url('assets/fonts/2F2BD0_9_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2F2BD0_9_0.woff2') format('woff2'), url('assets/fonts/2F2BD0_9_0.woff') format('woff'),url('assets/fonts/2F2BD0_9_0.ttf') format('truetype');}
+@font-face {
+	font-family: 'BrandonGrotesque-Bold';
+	src: url('assets/fonts/2F2BD0_9_0.eot');
+	src: url('assets/fonts/2F2BD0_9_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/2F2BD0_9_0.woff2') format('woff2'), url('assets/fonts/2F2BD0_9_0.woff') format('woff'), url('assets/fonts/2F2BD0_9_0.ttf') format('truetype');
+}
 
