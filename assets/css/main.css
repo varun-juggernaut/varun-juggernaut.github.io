@@ -6,6 +6,8 @@
  Copyright 2015 Varun Naik. All rights reserved.
  */
 
+@import url("//hello.myfonts.net/count/2f2bd0");
+
 html, button, input, select, textarea {
 	color: #222;
 }
@@ -332,11 +334,9 @@ a:before, a:after {
 #headerwrap h1 {
 	color: #dd4447;
 	font-size: 850%;
-	font-weight: bold;
 	text-align: center;
 	letter-spacing: 2px;
-	font-family: inherit;
-	line-height: 0.7;
+	line-height: 0.3;
 }
 
 #headerwrap img {
@@ -905,7 +905,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		line-height: 30px;
 	}
 	#about H2 {
-		margin-top: 0px;
+		margin-top: 20px;
 	}
 
 	.people-desc {
@@ -946,7 +946,6 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		margin: 25px 0 15px 0;
 		font-size: 15px;
 	}
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -962,7 +961,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		font-size: 15px;
 		letter-spacing: 2px;
 	}
-	
+
 	#headerwrap h3 {
 		color: #8e8e8e;
 		font-family: inherit;
@@ -1030,4 +1029,17 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	font-family: 'Verlag-Bold';
 	src: url(assets/fonts/Verlag-Bold.ttf);
 }
+
+@font-face {/*
+	font-family: Brandon-Bold;
+	src: url(assets/fonts/Brandon-Bold.eot) format('embedded-opentype'), url(assets/fonts/Brandon-Bold.woff2) format('woff2'), url(assets/fonts/Brandon-Bold.woff) format('woff'), url(assets/fonts/Brandon-Bold.ttf) format('truetype');
+}*/
+
+@font-face {
+	font-family: 'BrandonGrotesque-Black';
+	src: url('assets/fonts/2F2BD0_B_0.eot');
+	src: url('assets/fonts/2F2BD0_B_0.eot?#iefix') format('embedded-opentype'), url('assets/fonts/2F2BD0_B_0.woff2') format('woff2'), url('assets/fonts/2F2BD0_B_0.woff') format('woff'), url('assets/fonts/2F2BD0_B_0.ttf') format('truetype');
+}
+
+@font-face {font-family: 'BrandonGrotesque-Bold';src: url('assets/fonts/2F2BD0_9_0.eot');src: url('assets/fonts/2F2BD0_9_0.eot?#iefix') format('embedded-opentype'),url('assets/fonts/2F2BD0_9_0.woff2') format('woff2'), url('assets/fonts/2F2BD0_9_0.woff') format('woff'),url('assets/fonts/2F2BD0_9_0.ttf') format('truetype');}
 
