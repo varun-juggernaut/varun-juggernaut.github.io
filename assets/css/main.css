@@ -315,6 +315,13 @@ a:before, a:after {
  Wrap Sections
  ========================================================================== */
 
+.input-control{
+	
+	border: #e3e3e3;
+	border-radius: 3px;
+	
+}
+
 #headerwrap {
 	/*	background: url(../img/header_bg.jpg) no-repeat center top;*/
 	background-color: #fff;
@@ -332,7 +339,7 @@ a:before, a:after {
 }
 
 #headerwrap h1 {
-	color: #dd4447;
+	color: #fc4746;
 	font-size: 850%;
 	text-align: center;
 	letter-spacing: 2px;
@@ -383,17 +390,17 @@ a:before, a:after {
 	font-size: 17px;
 	margin: 20px 0;
 	background-color: rgba(255,255,255,0);
-	color: #dd4447;
-	border: 1px solid #dd4447;
+	color: #fc4746;
+	border: 1px solid #fc4746;
 }
 #headerwrap .btn:hover, #headerwrap .btn:focus {
 	color: #fff;
-	background-color: #dd4447;
+	background-color: #fc4746;
 	outline: 0px;
-	border: 1px solid #dd4447;
+	border: 1px solid #fc4746;
 }
 #about {
-	background: #dd4447;
+	background: #fc4746;
 	padding-top: 20px;
 	padding-right: 0;
 	padding-left: 0;
@@ -498,7 +505,7 @@ a:before, a:after {
 	background-color: #2ea0b1;
 }
 #investors {
-	background-color: #dd4447;
+	background-color: #fc4746;
 	/*padding: 20px 0;
 	 text-align: center;
 	 vertical-align: bottom;
@@ -621,7 +628,7 @@ a:before, a:after {
 }
 
 #contact {
-	background-color: #dd4447;
+	background-color: #fc4746;
 	padding: 20px 0;
 	text-align: center;
 	-webkit-box-shadow: 0 4px 15px 0 #000000;
@@ -660,7 +667,7 @@ a:before, a:after {
 	font-size: 18px;
 	margin-top: 20px;
 	background-color: #fff;
-	color: #dd4447;
+	color: #fc4746;
 	border: 0;
 }
 
@@ -876,7 +883,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	height: 263px;
 	border-radius: 3px;
 	overflow: hidden;
-	background: rgba(221, 68, 71, 0.6);
+	background: rgba(252, 71, 70, 0.6);
 	display: none;
 }
 
