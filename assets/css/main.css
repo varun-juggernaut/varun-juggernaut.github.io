@@ -365,6 +365,11 @@ a:before, a:after {
 	letter-spacing: 2px;
 }
 
+#headerwrap img {
+	padding-top: 100px;
+	width: 50%;
+}
+
 #headerwrap p {
 	color: #fff;
 	font-size: 22px;
@@ -914,6 +919,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		font-family: inherit;
 	}
 
+	#headerwrap img {
+		padding-top: 100px;
+		width: 80%;
+	}
+
 	#headerwrap h2 {
 		font-size: 13px;
 		letter-spacing: 2px;
@@ -944,7 +954,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 	#investors h3 {
 		font-size: 25px;
 	}
-	
+
 	#investors p {
 		font-size: 18px;
 	}
