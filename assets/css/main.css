@@ -923,7 +923,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		color: #8e8e8e;
 		font-family: inherit;
 		margin: 25px 0 15px 0;
-		font-size: 12px;
+		font-size: 14px;
 		font-weight: 50;
 		letter-spacing: 1px;
 		padding-left: 5px;
@@ -939,6 +939,14 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 	#investors h2 {
 		font-size: 35px;
+	}
+
+	#investors h3 {
+		font-size: 25px;
+	}
+	
+	#investors p {
+		font-size: 18px;
 	}
 
 	#advisors h2 {
