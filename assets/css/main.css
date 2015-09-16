@@ -944,11 +944,11 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 		letter-spacing: 1px;
 		padding-left: 5px;
 		padding-right: 5px;
-		padding-top: 20px;
+		padding-top: 0px;
 	}
 
 	#headerwrap .clearfix {
-		top: 50% !important;
+		top: 35% !important;
 	}
 
 	#headerwrap h4 {
