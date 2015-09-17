@@ -990,6 +990,7 @@ and (max-device-width : 1024px)  {
 	.vertical-center img {
 		padding-top: 20% !important;
 		width: 80%;
+		height: auto;
 	}
 
 	.vertical-center h2 {
